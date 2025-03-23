@@ -14,12 +14,12 @@
 
 </div>
 
-<a href="https://github.com/Kaweees/modern-python">
+<a href="https://github.com/Kaweees/paper2code">
   <img alt="Python Logo" src="assets/img/python.png" align="right" width="150">
 </a>
 
 <div align="left">
-  <h1><em><a href="https://miguelvf.dev/blog/dotfiles/compendium">~modern-python</a></em></h1>
+  <h1><em><a href="https://miguelvf.dev/blog/dotfiles/compendium">~paper2code</a></em></h1>
 </div>
 
 <!-- ABOUT THE PROJECT -->
@@ -29,9 +29,7 @@ A template for developing production-ready Python applications.
 ### Built With
 
 [![Python][Python-shield]][Python-url]
-[![Pytest][Pytest-shield]][Pytest-url]
-[![Codecov][Codecov-shield]][Codecov-url]
-[![Docker][Docker-shield]][Docker-url]
+[![PyTorch][Pytorch-shield]][Pytorch-url]
 [![GitHub Actions][github-actions-shield]][github-actions-url]
 
 <!-- GETTING STARTED -->
@@ -49,8 +47,8 @@ To get a local copy of the project up and running on your machine, follow these 
 1. Clone the project repository
 
    ```sh
-   git clone https://github.com/Kaweees/modern-python.git
-   cd modern-python
+   git clone https://github.com/Kaweees/paper2code.git
+   cd paper2code
    ```
 
 2. Install the virtual environment and pre-commit hooks
@@ -70,7 +68,7 @@ To get a local copy of the project up and running on your machine, follow these 
 ## Project Structure
 
 ```sh
-modern-python/
+paper2code/
 ├── .github/                       - GitHub Actions CI/CD workflows
 ├── scripts/                       - Standalone scripts
 ├── shared/
@@ -90,23 +88,19 @@ The source code for this project is distributed under the terms of the MIT Licen
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/Kaweees/modern-python.svg?style=for-the-badge
-[contributors-url]: https://github.com/Kaweees/modern-python/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Kaweees/modern-python.svg?style=for-the-badge
-[forks-url]: https://github.com/Kaweees/modern-python/network/members
-[stars-shield]: https://img.shields.io/github/stars/Kaweees/modern-python.svg?style=for-the-badge
-[stars-url]: https://github.com/Kaweees/modern-python/stargazers
+[contributors-shield]: https://img.shields.io/github/contributors/Kaweees/paper2code.svg?style=for-the-badge
+[contributors-url]: https://github.com/Kaweees/paper2code/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Kaweees/paper2code.svg?style=for-the-badge
+[forks-url]: https://github.com/Kaweees/paper2code/network/members
+[stars-shield]: https://img.shields.io/github/stars/Kaweees/paper2code.svg?style=for-the-badge
+[stars-url]: https://github.com/Kaweees/paper2code/stargazers
 
 <!-- MARKDOWN SHIELD BAGDES & LINKS -->
 <!-- https://github.com/Ileriayo/markdown-badges -->
 
 [Python-shield]: https://img.shields.io/badge/Python-%23008080.svg?style=for-the-badge&logo=python&logoColor=FFDD54&labelColor=222222&color=306998
 [Python-url]: https://www.python.org/
-[Pytest-shield]: https://img.shields.io/badge/pytest-%23008080.svg?style=for-the-badge&logo=pytest&logoColor=2F9FE3&labelColor=222222&color=2F9FE3
-[Pytest-url]: https://docs.pytest.org
-[Docker-shield]: https://img.shields.io/badge/docker-%232671E5.svg?style=for-the-badge&logo=docker&logoColor=1D63ED&labelColor=222222&color=1D63ED
-[Docker-url]: https://www.docker.com/
-[Codecov-shield]: https://img.shields.io/badge/codecov-%23008080.svg?style=for-the-badge&logo=codecov&logoColor=FF0077&labelColor=222222&color=FF0077
-[Codecov-url]: https://codecov.io/
+[Pytorch-shield]: https://img.shields.io/badge/pytorch-%23008080.svg?style=for-the-badge&logo=PyTorch&logoColor=EE4C2C&labelColor=222222&color=EE4C2C
+[Pytorch-url]: https://pytorch.org
 [github-actions-shield]: https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=2671E5&labelColor=222222&color=2671E5
 [github-actions-url]: https://github.com/features/actions

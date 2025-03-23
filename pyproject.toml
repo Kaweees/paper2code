@@ -9,7 +9,16 @@ requires-python = ">=3.10"
 readme = "README.md"
 license = { file = "LICENSE" }
 
-dependencies = ["utils", "core", "typer>=0.12.5"]
+dependencies = [
+  "utils",
+  "core",
+  "typer>=0.12.5",
+  "pre-commit>=4.1.0",
+  "ipykernel>=6.29.5",
+  "deptry>=0.23.0",
+  "mypy>=1.15.0",
+  "pytest-cov>=6.0.0",
+]
 
 [tool.uv.sources]
 utils = { workspace = true }
@@ -19,16 +28,6 @@ core = { workspace = true }
 members = ["shared/*", "src/*"]
 
 [tool.uv]
-dev-dependencies = [
-  "pre-commit>=3.8.0",
-  "ipykernel>=6.29.5",
-  "pytest>=8.3.2",
-  # These are added as dev dependencies becuase they should be available
-  #  when developing the project.
-  "deptry>=0.23.0",
-  "mypy>=1.15.0",
-  "pytest-cov>=6.0.0",
-]
 package = false
 
 [tool.black]
